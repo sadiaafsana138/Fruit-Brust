@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit-Brust</title>
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font-Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!--DaisUI-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/3977f5ac21.js" crossorigin="anonymous"></script>
+    <!--Customized Color-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-family {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-family m-2">
+    <header>
+        <section class="Section-1 bg-red-500 rounded-full">
+            <div Class="flex justify-center items-center">
+                <div class="navbar-start text-yellow-50">
+                    <ul class="flex gap-5">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center flex items-center justify-center w-100 text-yellow-50 rounded-full">
+                    <img src="/images/logo.png">
+                    <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                </div>
+                <div class="navbar-end flex">
+                    <div class="form-control rounded-full flex">
+                        <input type="text" placeholder="Search" class="input input-bordered w-40 "/>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="Section-2"></section>
+        <section class="Section-3"></section>
+        <section class="Section-4"></section>
+        <section class="Section-5"></section>
+        <section class="Section-6"></section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
